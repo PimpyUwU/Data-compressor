@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Huffman">
+      <UniqueIdentifier>{fbf9d34c-d6b1-4b50-bef4-498a97d123e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Huffman">
+      <UniqueIdentifier>{1fc95bec-478b-4b0e-9fed-c10086fee23b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShanonFano">
+      <UniqueIdentifier>{a1d738d0-5aa6-4939-bbdc-fdc3cd027550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShanonFano">
+      <UniqueIdentifier>{87dcbb84-5609-45fe-88cb-339ca0016c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LZW">
+      <UniqueIdentifier>{5606f978-0e11-4412-b804-bd2df0aa2533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LZW">
+      <UniqueIdentifier>{6e046efa-0aee-4e91-8d8e-fa1f14d22036}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrequencyTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Letter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CodesTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HuffmanTree.h">
+      <Filter>Header Files\Huffman</Filter>
+    </ClInclude>
+    <ClInclude Include="HuffmanEncoding.h">
+      <Filter>Header Files\Huffman</Filter>
+    </ClInclude>
+    <ClInclude Include="ShenonFanoAlgorithm.h">
+      <Filter>Header Files\ShanonFano</Filter>
+    </ClInclude>
+    <ClInclude Include="ShenonFanoEncoding.h">
+      <Filter>Header Files\ShanonFano</Filter>
+    </ClInclude>
+    <ClInclude Include="LZWEncoding.h">
+      <Filter>Header Files\LZW</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FrequencyTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Letter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HuffmanEncoding.cpp">
+      <Filter>Source Files\Huffman</Filter>
+    </ClCompile>
+    <ClCompile Include="HuffmanTree.cpp">
+      <Filter>Source Files\Huffman</Filter>
+    </ClCompile>
+    <ClCompile Include="CodesTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShenonFanoAlgorithm.cpp">
+      <Filter>Source Files\ShanonFano</Filter>
+    </ClCompile>
+    <ClCompile Include="ShenonFanoEncoding.cpp">
+      <Filter>Source Files\ShanonFano</Filter>
+    </ClCompile>
+    <ClCompile Include="LZWEncoding.cpp">
+      <Filter>Source Files\LZW</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
